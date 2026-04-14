@@ -3,11 +3,11 @@ name: Deploy React to S3
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-deploy:
-    
+
     runs-on: ubuntu-latest
 
 
